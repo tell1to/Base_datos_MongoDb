@@ -1,0 +1,16 @@
+*Crear index orden Numerico
+db.tasks.createIndex({ "description": -1 })
+description_-1
+
+*Ejectar Index
+db.tasks.find().sort({ "description": -1 })
+
+---------------- 
+Orden Alfa
+db.tu_coleccion.createIndex({ "title": 1 })
+
+db.tu_coleccion.find().sort({ "title": 1 })
+---------------------
+
+
+
